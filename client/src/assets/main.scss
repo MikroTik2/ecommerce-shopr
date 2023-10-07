@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #121212;
+  --white: #ffffff;
+  --gray: #CBCBCB;
+  --gray-secondary: #F5F5F5;
+  --gray-secondary-two: #fafafa;
+  --white-gray: #EAEAEA;
+  --light-gray: #A7A7A7;
+  --light-gray-secondary: #807E7E;
+  --black-gray: #605F5F;
+  --black-gray-secondary: #FAFAFB;
+  --color-field-background: #f7f7f7;
+  --text-blue: #3E3E59;
+  --pink-700: #92235A;
+  --red-light: #DC3545;
+  --green-light: #20C997;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
